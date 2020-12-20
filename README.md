@@ -4,6 +4,7 @@ This app uses Leaflet and React-leaflet instead of Google Maps, because it's a l
 
 The information about the wildfires is fetched using the [NASA API](https://eonet.sci.gsfc.nasa.gov/api/v2.1/events)
 
+## Live site in Netlify [HERE](https://react-fireearthevents.netlify.app/)
 
 ### Getting Started with Create React App
 
