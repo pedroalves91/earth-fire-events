@@ -1,13 +1,69 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin-top: 10px;
+  margin-left: auto;
+  left: 10%;
+  right: 10%;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: firebrick;
+  color: #fff;
+  position: fixed;
+  max-width: fit-content;
+  height: fit-content;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.map {
+  height: 100vh;
+  width: 100vw;
+  bottom: 0;
+  position: relative;
+}
+
+.map .leaflet-container {
+  height: 100%;
+  z-index: 0;
+}
+
+.loader-gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader-gif img {
+  width: 400px;
+}
+
+.loader-gif h1 {
+  margin-top: -100px;
+}
+
+.location-info {
+  font-size: 15px;
+}
+
+.location-info ul {
+  list-style-type: none;
 }
